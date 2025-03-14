@@ -7,29 +7,33 @@
 **Clona este repositorio**:
 ```bash
 git clone https://github.com/Tobira123/prueba-tecnica-react.git
-Instala las dependencias:
+```
 
+Instala las dependencias:
+```bash
 npm install
+```
 
 Inicia el servidor de desarrollo:
-
+```bash
 npm run dev
+```
 
-📁 Estructura del Proyecto
+## 📁 Estructura del Proyecto
 
-main.jsx:
+**main.jsx**:
 
 Punto de entrada de la aplicación. Configura Redux, el ThemeProvider de MUI y el LocalizationProvider para mostrar fechas en español.
 
-App.jsx:
+**App.jsx**:
 
 Componente principal que muestra el encabezado, el botón para alternar el modo oscuro, la lista de tareas y un FAB que abre un modal para agregar tareas.
 
-store:
+**store**:
 
 Contiene la configuración de Redux y los slices para la gestión de tareas y del tema.
 
-components:
+**components**:
 
 Incluye todos los componentes de la aplicación, como:
 
@@ -41,22 +45,32 @@ TaskItem.jsx: Componente para mostrar cada tarea con controles para actualizar s
 
 ThemeToggleButton.jsx: Botón que alterna el modo oscuro, mostrando un ícono de luna en light y un ícono de sol en dark.
 
-styles:
+**styles**:
 
 Archivos CSS globales y específicos, por ejemplo, para los estilos neumórficos de los toggles.
 
-utils:
+**utils**:
 
 Archivos de utilidades y datos iniciales (como el listado de tareas predeterminadas).
 
-📝 Decisiones de Diseño
+## 📝 Decisiones de Diseño
 
-Tecnologías: React con Redux y Vite, utilizando Material UI para una interfaz responsiva y moderna.
+**Tecnologías**:
 
-Modo Oscuro: Controlado globalmente vía Redux y MUI ThemeProvider; se alterna mediante un botón que muestra luna o sol según el modo.
+React con Redux y Vite, utilizando Material UI para una interfaz responsiva y moderna.
 
-Gestión de Tareas: Tareas con atributos completos (incluyendo fecha en español, estado, categoría y prioridad). Se usan toggles neumórficos y botones para cambiar o revertir el estado.
+**Modo Oscuro**: 
 
-Filtrado y Organización: Tareas filtradas por categoría (Tabs) y estado (Select) para facilitar la navegación.
+Controlado globalmente vía Redux y MUI ThemeProvider; se alterna mediante un botón que muestra luna o sol según el modo.
 
-Responsive: Diseño adaptado a dispositivos móviles y escritorio, con un FAB que abre el formulario en un modal y se posiciona según el tamaño de pantalla.
+**Gestión de Tareas**: 
+
+Tareas con atributos completos (incluyendo fecha en español, estado, categoría y prioridad). Se usan toggles neumórficos y botones para cambiar o revertir el estado.
+
+**Filtrado y Organización**: 
+
+Tareas filtradas por categoría (Tabs) y estado (Select) para facilitar la navegación.
+
+**Responsive**: 
+
+Diseño adaptado a dispositivos móviles y escritorio, con un FAB que abre el formulario en un modal y se posiciona según el tamaño de pantalla.
