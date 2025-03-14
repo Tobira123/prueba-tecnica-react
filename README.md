@@ -1,9 +1,12 @@
-🔧 Pasos de Instalación y Ejecución
+# Prueba Técnica React
 
-Clona este repositorio:
+---
 
+## 🔧 Pasos de Instalación y Ejecución
+
+**Clona este repositorio**:
+```bash
 git clone https://github.com/Tobira123/prueba-tecnica-react.git
-
 Instala las dependencias:
 
 npm install
